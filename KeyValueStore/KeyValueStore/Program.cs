@@ -64,7 +64,7 @@ namespace KeyValueStore
                 }
                 else
                 {
-                    Console.WriteLine("Error: Index was outside the bounds of the array");
+                    Console.WriteLine("Error: Cannot store more than 5 objects");
                 }
             }
         }
