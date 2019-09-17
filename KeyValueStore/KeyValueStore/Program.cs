@@ -34,14 +34,14 @@ namespace KeyValueStore
 
     class MyDictionary
     {
-        KeyValue[] arr1 = new KeyValue[10];
+        KeyValue[] arr = new KeyValue[5];
         int track = 0;
 
         public object this[string index]
         {
             get
             {
-                foreach (var item in arr1)
+                foreach (var item in arr)
                 {
                     if (item.key == index)
                         return item.value;                       
@@ -50,21 +50,21 @@ namespace KeyValueStore
             }
             set
             {
-                for (int i = 0; i < arr1.Length; i++)
+                for (int i = 0; i < arr.Length; i++)
                 {
-                    if (arr1[i].key == index)
+                    if (arr[i].key == index)
                     {
-                        arr1[i] = new KeyValue(index, value);
+                        arr[i] = new KeyValue(index, value);
                         return;
                     }
                 }
-                if (track < arr1.Length)
+                if (track < arr.Length)
                 {
-                    arr1[track++] = new KeyValue(index, value);
+                    arr[track++] = new KeyValue(index, value);
                 }
                 else
                 {
-                    Console.WriteLine("Error");
+                    Console.WriteLine("Error: Index was outside the bounds of the array");
                 }
             }
         }
