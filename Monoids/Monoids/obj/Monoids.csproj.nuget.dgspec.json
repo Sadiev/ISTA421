@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dilsh\\source\\repos\\Monoids\\Monoids\\Monoids.csproj": {}
+    "C:\\Users\\dilsh\\source\\repos\\ISTA421\\Monoids\\Monoids\\Monoids.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dilsh\\source\\repos\\Monoids\\Monoids\\Monoids.csproj": {
+    "C:\\Users\\dilsh\\source\\repos\\ISTA421\\Monoids\\Monoids\\Monoids.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dilsh\\source\\repos\\Monoids\\Monoids\\Monoids.csproj",
+        "projectUniqueName": "C:\\Users\\dilsh\\source\\repos\\ISTA421\\Monoids\\Monoids\\Monoids.csproj",
         "projectName": "Monoids",
-        "projectPath": "C:\\Users\\dilsh\\source\\repos\\Monoids\\Monoids\\Monoids.csproj",
+        "projectPath": "C:\\Users\\dilsh\\source\\repos\\ISTA421\\Monoids\\Monoids\\Monoids.csproj",
         "packagesPath": "C:\\Users\\dilsh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dilsh\\source\\repos\\Monoids\\Monoids\\obj\\",
+        "outputPath": "C:\\Users\\dilsh\\source\\repos\\ISTA421\\Monoids\\Monoids\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

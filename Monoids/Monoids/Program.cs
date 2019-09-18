@@ -51,7 +51,7 @@ namespace ConsoleApp6
             for (int i = 1; i <= v; ++i)
             {
                 var s = 
-                    Mconcat(new List<Maybe<StringMonoid>>
+                    Mconcat(new[]//new List<Maybe<StringMonoid>>
                                 { i.IfDivisibleBy(3, "Fizz")
                                 , i.IfDivisibleBy(5, "Buzz")
                                 , i.IfDivisibleBy(7, "Woz")})
