@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dilsh\\source\\repos\\ISTA421\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj": {}
+    "C:\\Users\\dilsh\\source\\repos\\ISTA421\\FizzBuzz\\FizzBuzz2\\FizzBuzz2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dilsh\\source\\repos\\ISTA421\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj": {
+    "C:\\Users\\dilsh\\source\\repos\\ISTA421\\FizzBuzz\\FizzBuzz2\\FizzBuzz2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dilsh\\source\\repos\\ISTA421\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj",
-        "projectName": "FizzBuzz",
-        "projectPath": "C:\\Users\\dilsh\\source\\repos\\ISTA421\\FizzBuzz\\FizzBuzz\\FizzBuzz.csproj",
+        "projectUniqueName": "C:\\Users\\dilsh\\source\\repos\\ISTA421\\FizzBuzz\\FizzBuzz2\\FizzBuzz2.csproj",
+        "projectName": "FizzBuzz2",
+        "projectPath": "C:\\Users\\dilsh\\source\\repos\\ISTA421\\FizzBuzz\\FizzBuzz2\\FizzBuzz2.csproj",
         "packagesPath": "C:\\Users\\dilsh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dilsh\\source\\repos\\ISTA421\\FizzBuzz\\FizzBuzz\\obj\\",
+        "outputPath": "C:\\Users\\dilsh\\source\\repos\\ISTA421\\FizzBuzz\\FizzBuzz2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
