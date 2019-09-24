@@ -21,11 +21,11 @@ namespace KeyValueStore
             Console.WriteLine($"{(int)d["Cats"]}, {(int)d["Dogs"]}");
         }
     }
-    struct KeyValue
+    struct KeyValue<T>
     {
         public readonly string key;
-        public readonly object value;
-        public KeyValue(string key, object value)
+        public readonly T value;
+        public KeyValue(string key, T value)
         {
             this.key = key;
             this.value = value;
@@ -34,7 +34,7 @@ namespace KeyValueStore
 
     class MyDictionary
     {
-        KeyValue[] arr = new KeyValue[5];
+        KeyValue<int>[] arr = new KeyValue<int>[5];
         int track = 0;
 
         public object this[string index]
